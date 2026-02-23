@@ -50,6 +50,16 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Ngl this is tuff",
+    "I'm so excited to take this exam at 9 in the morning😒",
+    "I absolutely love getting stuck in traffic 🙃",
+    "This movie is so good, I'm loving it!",
+    "Lecture was boring but the snacks were amazing",
+    "The only reason I go to this awful class is because of the professor's sense of humor 😂",
+    "I can't decide if I'm more stressed or excited about the upcoming project deadline",
+    "Lowkey stressed but kind of proud of myself",
+    "Highkey excited but also kind of nervous about the presentation tomorrow",
+    "No cap, this is the best day ever! 🥳",
 ]
 
 # Human labels for each post above.
@@ -65,6 +75,16 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",  # "Ngl this is tuff"
+    "negative",  # "I'm so excited to take this exam at 9 in the morning😒"
+    "negative",  # "I absolutely love getting stuck in traffic 🙃"
+    "positive",  # "This movie is so good, I'm loving it!"
+    "positive",  # "Lecture was boring but the snacks were amazing"
+    "positive",  # "The only reason I go to this awful class is because of the professor's sense of humor 😂"
+    "mixed",  # "I can't decide if I'm more stressed or excited about the upcoming project deadline"
+    "positive",  # "Lowkey stressed but kind of proud of myself"
+    "mixed",  # "Highkey excited but also kind of nervous about the presentation tomorrow"
+    "positive",  # "No cap, this is the best day ever! 🥳"
 ]
 
 # TODO: Add 5-10 more posts and labels.
