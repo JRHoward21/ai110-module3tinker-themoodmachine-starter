@@ -87,6 +87,30 @@ TRUE_LABELS = [
     "positive",  # "No cap, this is the best day ever! 🥳"
 ]
 
+# ---------------------------------------------------------------------
+# Sarcasm indicators
+# ---------------------------------------------------------------------
+
+# Phrases that strongly suggest sarcasm. Keep these specific enough that
+# they are rarely used sincerely (e.g. nobody genuinely loves traffic).
+SARCASM_PHRASES = [
+    "love getting stuck in traffic",
+    "love being stuck in traffic",
+    "love sitting in traffic",
+    "love getting stuck",
+    "love mondays",
+    "love waking up early",
+    "love waiting in line",
+    "love being ignored",
+    "oh great",
+    "just great",
+    "just what i needed",
+]
+
+# Emojis that reliably signal an eye-rolling / sarcastic tone.
+SARCASM_EMOJIS = ["🙃", "😒", "🙄"]
+
+
 # TODO: Add 5-10 more posts and labels.
 #
 # Requirements:
